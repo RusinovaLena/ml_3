@@ -16,6 +16,6 @@ The best system parameters:
 The best estimator: 
 SVC(max_iter=100000)
 The best score: 
-0.803459235375403
+0.793459235375403
 The best system parameters: 
 {'gamma': 'scale', 'kernel': 'rbf'}
