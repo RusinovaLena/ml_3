@@ -6,12 +6,12 @@ XGBClassifier(base_score=0.5, booster='dart', colsample_bylevel=1,
               max_iter=100000, min_child_weight=1, missing=nan,
               monotone_constraints='()', n_estimators=100, n_jobs=0,
               num_parallel_tree=1, random_state=0, reg_alpha=0, reg_lambda=1,
-              sampling_method='gradient_based', scale_pos_weight=1, subsample=1,
-              tree_method='auto', validate_parameters=1, verbosity=None)
+              sampling_method='uniform', scale_pos_weight=1, subsample=1,
+              tree_method='hist', validate_parameters=1, verbosity=None)
 The best score: 
-0.8740672501151543
+0.8717948717948717
 The best system parameters: 
-{'tree_method': 'auto', 'sampling_method': 'gradient_based', 'eta': 0.2, 'booster': 'dart'}
+{'tree_method': 'hist', 'sampling_method': 'uniform', 'eta': 0.2, 'booster': 'dart'}
 
 The best estimator: 
 SVC(max_iter=100000)
