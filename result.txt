@@ -1,21 +1,21 @@
 The best estimator: 
-XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+XGBClassifier(base_score=0.5, booster='dart', colsample_bylevel=1,
               colsample_bynode=1, colsample_bytree=1, eta=0.2, gamma=0,
               gpu_id=-1, importance_type='gain', interaction_constraints='',
               learning_rate=0.200000003, max_delta_step=0, max_depth=6,
-              max_iter=10000, min_child_weight=1, missing=nan,
+              max_iter=100000, min_child_weight=1, missing=nan,
               monotone_constraints='()', n_estimators=100, n_jobs=0,
               num_parallel_tree=1, random_state=0, reg_alpha=0, reg_lambda=1,
-              sampling_method='uniform', scale_pos_weight=1, subsample=1,
-              tree_method='approx', validate_parameters=1, verbosity=None)
+              sampling_method='gradient_based', scale_pos_weight=1, subsample=1,
+              tree_method='auto', validate_parameters=1, verbosity=None)
 The best score: 
-0.8745892829725165
+0.8740672501151543
 The best system parameters: 
-{'tree_method': 'approx', 'sampling_method': 'uniform', 'eta': 0.2, 'booster': 'gbtree'}
+{'tree_method': 'auto', 'sampling_method': 'gradient_based', 'eta': 0.2, 'booster': 'dart'}
 
 The best estimator: 
-SVC(max_iter=10000)
+SVC(max_iter=100000)
 The best score: 
-0.793459235375403
+0.803459235375403
 The best system parameters: 
 {'gamma': 'scale', 'kernel': 'rbf'}
